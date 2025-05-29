@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SaveManager : MonoBehaviour
+public class GameDataManager : MonoBehaviour
 {
     #region Singleton
 
-    public static SaveManager Instance { get; private set; }
+    public static GameDataManager Instance { get; private set; }
 
     private void Awake()
     {
@@ -21,4 +21,15 @@ public class SaveManager : MonoBehaviour
     }
 
     #endregion // Singleton
+
+
+
+
+    #region private fields
+
+    private GameData _gameData;
+    private PlayerData _playerData;
+    private SettingData _settingData;
+
+    #endregion // private fields
 }
