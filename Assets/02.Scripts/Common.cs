@@ -8,7 +8,8 @@ public enum TableType
 public enum SceneType
 {
     Start,
-    InGame,
+    Dialog,
+    Room,
 }
 
 #endregion Definations

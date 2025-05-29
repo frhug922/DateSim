@@ -36,4 +36,21 @@ public class GameManager : MonoBehaviour
     }
 
     #endregion // public funcs
+
+
+
+
+    #region private funcs
+
+    private void Start()
+    {
+        GameDataManager.Instance.LoadGame();
+    }
+
+    private void OnApplicationQuit()
+    {
+        GameDataManager.Instance.SaveGame();
+    }
+
+    #endregion // private funcs
 }

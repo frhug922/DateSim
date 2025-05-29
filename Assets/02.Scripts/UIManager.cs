@@ -31,12 +31,19 @@ public class UIManager : MonoBehaviour
 
     public void OnClick_Load()
     {
-
+        GameDataManager.Instance.LoadGame();
+        if (GameDataManager.Instance.SceneName == "DialogScene") {
+            SceneManager.Instance.LoadScene(SceneType.Dialog);
+        }
+        else {
+            SceneManager.Instance.LoadScene(SceneType.Room);
+        }
     }
 
     public void OnClick_NewGame()
     {
-        SceneManager.Instance.LoadScene(SceneType.InGame);
+        GameDataManager.Instance.NewPlayerData();
+        SceneManager.Instance.LoadScene(SceneType.Dialog);
     }
 
     public void OnClick_Setting()

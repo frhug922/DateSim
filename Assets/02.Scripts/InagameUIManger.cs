@@ -41,8 +41,8 @@ public class InagameUIManger : MonoBehaviour
 
     public void Initialize()
     {
-        _chapter = GameDataManager.Instance.Chapter;
-        _dialogID = GameDataManager.Instance.DialogID;
+        _chapter = GameDataManager.Instance.PlayerData.Chapter;
+        _dialogID = GameDataManager.Instance.PlayerData.DialogID;
 
         _dialogTable = TableManager.Instance.GetTable<TDialogs>(TableType.Dialog);
 
@@ -69,6 +69,11 @@ public class InagameUIManger : MonoBehaviour
         _currLog = _nextLog;
 
         if (_currLog.IsEnd) { // 다음 씬으로 넘어가거나 뭐든 하기 TODO
+            SceneManager.Instance.LoadScene(SceneType.Room);
+            GameDataManager.Instance.PlayerData.Chapter = _chapter + 1;
+            GameDataManager.Instance.PlayerData.DialogID = 1;
+            GameDataManager.Instance.SaveGame();
+
             return;
         }
         _nextLog = _dialogTable.Find(_chapter, _currLog.NextID);

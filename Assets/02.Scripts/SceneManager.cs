@@ -32,10 +32,15 @@ public class SceneManager : MonoBehaviour
     {
         switch (sceneType) {
             case SceneType.Start:
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Start");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("StartScene");
                 break;
-            case SceneType.InGame:
-                UnityEngine.SceneManagement.SceneManager.LoadScene("InGame");
+            case SceneType.Dialog:
+                UnityEngine.SceneManagement.SceneManager.LoadScene("DialogScene");
+                GameDataManager.Instance.SceneName = "DialogScene";
+                break;
+            case SceneType.Room:
+                UnityEngine.SceneManagement.SceneManager.LoadScene("RoomScene");
+                GameDataManager.Instance.SceneName = "RoomScene";
                 break;
             default:
                 Debug.LogError("Unknown scene type: " + sceneType);

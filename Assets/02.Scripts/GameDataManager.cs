@@ -27,8 +27,7 @@ public class GameDataManager : MonoBehaviour
 
     #region private fields
 
-    private int chapter = 1;
-    private int dialogID = 1;
+    private PlayerData playerData;
 
     #endregion // private fields
 
@@ -38,8 +37,48 @@ public class GameDataManager : MonoBehaviour
 
     #region Properties
 
-    public int Chapter { get { return chapter; } set { chapter = value; } }
-    public int DialogID { get { return dialogID; } set { dialogID = value; } }
+    public PlayerData PlayerData { get { return playerData; } set { playerData = value; } }
+    public string SceneName { get; set; } = "DialogScene";
 
     #endregion // Properties
+
+
+    #region public funcs
+
+    public void NewPlayerData()
+    {
+        playerData = new PlayerData {
+            Chapter = 1,
+            DialogID = 1,
+            Day = 0,
+            Apperance = 10,
+            Health = 10,
+            Wealth = 10,
+        };
+    }
+
+    public void LoadGame()
+    {
+        PlayerPrefsManager.Instance.LoadData();
+    }
+
+    public void SaveGame()
+    {
+        PlayerPrefsManager.Instance.SaveData();
+    }
+
+    #endregion // public funcs
+}
+
+
+public class PlayerData
+{
+    public int Chapter { get; set; }
+    public int DialogID { get; set; }
+
+    // Ingame Data
+    public int Day { get; set; }
+    public int Apperance { get; set; }
+    public int Health { get; set; }
+    public int Wealth { get; set; }
 }
