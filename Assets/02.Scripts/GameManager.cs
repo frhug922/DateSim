@@ -20,4 +20,23 @@ public class GameManager : MonoBehaviour
     }
 
     #endregion // Singleton
+
+
+
+
+
+    #region public funcs
+
+    public void ExitGame()
+    {
+        GameDataManager.Instance.SaveAll();
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
+    }
+
+    #endregion // public funcs
 }
