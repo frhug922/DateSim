@@ -33,7 +33,7 @@ public class GameDataManager : MonoBehaviour
     private GameData _gameData;
     private PlayerData _playerData;
     private SettingData _settingData;
-    private List<TableBase> _tables = new List<TableBase>();
+    private Dictionary<TableType, TableBase> _tables = new();
 
     #endregion // private fields
 
@@ -54,6 +54,16 @@ public class GameDataManager : MonoBehaviour
 
 
     #region public funcs
+
+    public T GetTable<T>(TableType type) where T : TableBase
+    {
+        if (_tables.TryGetValue(type, out var table)) {
+            return table as T;
+        }
+
+        Debug.LogError($"Table of type {type} not found or incorrect type.");
+        return null;
+    }
 
     public void SaveData()
     {
@@ -137,10 +147,10 @@ public class GameDataManager : MonoBehaviour
     {
         _tables.Clear();
 
-        // Add all table classes here
-        _tables.Add(new TDialogs());
+        // Add Tables
+        _tables.Add(TableType.Dialog, new TDialogs());
 
-        foreach (var table in _tables) {
+        foreach (var table in _tables.Values) {
             table.Load();
         }
     }
