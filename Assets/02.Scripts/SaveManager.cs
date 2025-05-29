@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class SoundManager : MonoBehaviour
+public class SaveManager : MonoBehaviour
 {
     #region Singleton
 
-    public static SoundManager Instance { get; private set; }
+    public static SaveManager Instance { get; private set; }
 
     private void Awake()
     {

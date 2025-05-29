@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class TableBase
+public class TitleUIController : MonoBehaviour
 {
-    public abstract void Load();
+
 }
