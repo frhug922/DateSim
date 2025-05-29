@@ -33,6 +33,7 @@ public class GameDataManager : MonoBehaviour
     private GameData _gameData;
     private PlayerData _playerData;
     private SettingData _settingData;
+    private List<TableBase> _tables = new List<TableBase>();
 
     #endregion // private fields
 
@@ -54,11 +55,19 @@ public class GameDataManager : MonoBehaviour
 
     #region public funcs
 
-    public void SaveAll()
+    public void SaveData()
     {
         SaveGameData(GameData);
         SavePlayerData(PlayerData);
-        SaveSettingData(SettingData);
+    }
+
+    public void DeleteData()
+    {
+        PlayerPrefs.DeleteKey("GameData");
+        PlayerPrefs.DeleteKey("PlayerData");
+        PlayerPrefs.Save();
+        GameData = new GameData();
+        PlayerData = new PlayerData();
     }
 
     public void SaveGameData(GameData data)
@@ -117,9 +126,23 @@ public class GameDataManager : MonoBehaviour
 
     private void Initialize()
     {
+        LoadTables();
+
         GameData = LoadGameData();
         PlayerData = LoadPlayerData();
         SettingData = LoadSettingData();
+    }
+
+    private void LoadTables()
+    {
+        _tables.Clear();
+
+        // Add all table classes here
+        _tables.Add(new TDialogs());
+
+        foreach (var table in _tables) {
+            table.Load();
+        }
     }
 
     #endregion // private funcs

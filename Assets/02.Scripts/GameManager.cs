@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -29,13 +30,30 @@ public class GameManager : MonoBehaviour
 
     public void ExitGame()
     {
-        GameDataManager.Instance.SaveAll();
+        GameDataManager.Instance.SaveData();
 
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
         Application.Quit();
 #endif
+    }
+
+    public void StartNewGame()
+    {
+        GameDataManager.Instance.DeleteData();
+        GameDataManager.Instance.SaveData();
+        SceneManager.LoadScene("DialogScene");
+    }
+
+    public void LoadGame()
+    {
+        if (GameDataManager.Instance.GameData._sceneName == "DialogScene") {
+            SceneManager.LoadScene("DialogScene");
+        }
+        else {
+            SceneManager.LoadScene("RoomScene");
+        }
     }
 
     #endregion // public funcs

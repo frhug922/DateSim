@@ -8,12 +8,12 @@ public class TitleUIController : MonoBehaviour
 
     public void OnClick_LoadButton()
     {
-
+        GameManager.Instance.LoadGame();
     }
 
     public void OnClick_NewGameButton()
     {
-
+        GameManager.Instance.StartNewGame();
     }
 
     public void OnClick_SettingsButton()
