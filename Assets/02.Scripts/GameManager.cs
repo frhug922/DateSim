@@ -39,6 +39,16 @@ public class GameManager : MonoBehaviour
 #endif
     }
 
+    public void LoadRoomScene()
+    {
+        SceneManager.LoadScene("RoomScene");
+    }
+
+    public void LoadHomeScene()
+    {
+        SceneManager.LoadScene("HomeScene");
+    }
+
     public void StartNewGame()
     {
         GameDataManager.Instance.DeleteData();

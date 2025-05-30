@@ -3,353 +3,314 @@
     {
       "Chapter": 1,
       "ID": 1,
-      "NextID": 2,
+      "DialogType": 2,
       "Name": "System",
       "Dialog": "1번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 2,
-      "NextID": 3,
+      "DialogType": 1,
       "Name": "Player",
       "Dialog": "2번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 3,
-      "NextID": 4,
+      "DialogType": 1,
       "Name": "리언",
       "Dialog": "3번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 4,
-      "NextID": 5,
+      "DialogType": 1,
       "Name": "유니",
       "Dialog": "4번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 5,
-      "NextID": 6,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "5번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 6,
-      "NextID": 7,
+      "DialogType": 1,
       "Name": "???",
       "Dialog": "6번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 7,
-      "NextID": 8,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "7번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 8,
-      "NextID": 9,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "8번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 9,
-      "NextID": 10,
+      "DialogType": 1,
       "Name": "유니",
       "Dialog": "9번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 10,
-      "NextID": 11,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "10번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 11,
-      "NextID": 12,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "11번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 12,
-      "NextID": 13,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "12번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 13,
-      "NextID": 14,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "13번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 14,
-      "NextID": 15,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "14번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 15,
-      "NextID": 16,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "15번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 16,
-      "NextID": 17,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "16번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 17,
-      "NextID": 18,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "17번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 18,
-      "NextID": 19,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "18번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 19,
-      "NextID": 20,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "19번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 20,
-      "NextID": 21,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "20번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 21,
-      "NextID": 22,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "21번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 22,
-      "NextID": 23,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "22번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 23,
-      "NextID": 24,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "23번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 24,
-      "NextID": 25,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "24번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 25,
-      "NextID": 26,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "25번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 26,
-      "NextID": 27,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "26번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 27,
-      "NextID": 28,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "27번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 28,
-      "NextID": 29,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "28번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 29,
-      "NextID": 30,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "29번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 30,
-      "NextID": 31,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "30번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 31,
-      "NextID": 32,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "31번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 32,
-      "NextID": 33,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "32번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 33,
-      "NextID": 34,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "33번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 34,
-      "NextID": 35,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "34번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 35,
-      "NextID": 36,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "35번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 36,
-      "NextID": 37,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "36번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 37,
-      "NextID": 38,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "37번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 38,
-      "NextID": 39,
+      "DialogType": 1,
       "Name": "System",
       "Dialog": "38번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": false
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 39,
-      "NextID": 40,
+      "DialogType": 4,
       "Name": "System",
       "Dialog": "39번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001",
-      "IsEnd": true
+      "BackGroundImage": "BG_001"
     }
   ]
 }

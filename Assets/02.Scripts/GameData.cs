@@ -53,16 +53,16 @@ public class PlayerData
 
 public class SettingData
 {
-    public int _volume;
+    public float _volume;
     public float _dialogSpeed;
 
     public SettingData()
     {
-        _volume = 100;
-        _dialogSpeed = 1.0f;
+        _volume = 1f;
+        _dialogSpeed = 0.1f;
     }
 
-    public SettingData(int volume, float dialogSpeed)
+    public SettingData(float volume, float dialogSpeed)
     {
         _volume = volume;
         _dialogSpeed = dialogSpeed;

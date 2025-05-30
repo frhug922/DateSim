@@ -87,6 +87,11 @@ public class GameDataManager : MonoBehaviour
         PlayerPrefs.Save();
     }
 
+    public void SaveGameData()
+    {
+        SaveGameData(GameData);
+    }
+
     public void SavePlayerData(PlayerData data)
     {
         string json = JsonUtility.ToJson(data);
@@ -94,11 +99,21 @@ public class GameDataManager : MonoBehaviour
         PlayerPrefs.Save();
     }
 
+    public void SavePlayerData()
+    {
+        SavePlayerData(PlayerData);
+    }
+
     public void SaveSettingData(SettingData data)
     {
         string json = JsonUtility.ToJson(data);
         PlayerPrefs.SetString("SettingData", json);
         PlayerPrefs.Save();
+    }
+
+    public void SaveSettingData()
+    {
+        SaveSettingData(SettingData);
     }
 
     public GameData LoadGameData()
@@ -148,7 +163,7 @@ public class GameDataManager : MonoBehaviour
         _tables.Clear();
 
         // Add Tables
-        _tables.Add(TableType.Dialog, new TDialogs());
+        _tables.Add(TableType.Dialogs, new TDialogs());
 
         foreach (var table in _tables.Values) {
             table.Load();

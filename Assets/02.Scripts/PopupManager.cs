@@ -23,11 +23,16 @@ public class PopupManager : MonoBehaviour
 
 
 
+
+
     #region serialized fields
 
     [SerializeField] private PopupOKCancel _popupPrefab;
+    [SerializeField] private PopupSettingController _popupSettingPrefab;
 
     #endregion // serialized fields
+
+
 
 
 
@@ -37,6 +42,11 @@ public class PopupManager : MonoBehaviour
     {
         _popupPrefab.Initialize(explane, okCallback, cancelCallback, okText, cancelText);
         _popupPrefab.SetShow();
+    }
+
+    public void ShowSettingPopup()
+    {
+        _popupSettingPrefab.SetShow();
     }
 
     #endregion // public funcs

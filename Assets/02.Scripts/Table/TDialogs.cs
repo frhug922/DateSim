@@ -7,11 +7,10 @@ public class TDialog
 {
     public int Chapter;
     public int ID;
-    public int NextID;
+    public int DialogType;
     public string Name;
     public string Dialog;
     public string BackgroundImage;
-    public bool IsEnd;
 }
 
 [Serializable]

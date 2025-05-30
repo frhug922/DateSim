@@ -22,7 +22,7 @@ public class TitleUIController : MonoBehaviour
 
     public void OnClick_SettingsButton()
     {
-
+        PopupManager.Instance.ShowSettingPopup();
     }
 
     public void OnClick_ExitButton()
