@@ -164,6 +164,7 @@ public class GameDataManager : MonoBehaviour
 
         // Add Tables
         _tables.Add(TableType.Dialogs, new TDialogs());
+        _tables.Add(TableType.Choices, new TChoices());
 
         foreach (var table in _tables.Values) {
             table.Load();

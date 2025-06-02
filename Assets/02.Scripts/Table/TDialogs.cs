@@ -11,6 +11,7 @@ public class TDialog
     public string Name;
     public string Dialog;
     public string BackgroundImage;
+    public int ChoiceID;
 }
 
 [Serializable]

@@ -6,6 +6,7 @@ public class DialogUIController : MonoBehaviour
 
     [SerializeField] private PopupDialog _popupDialog;
     [SerializeField] private PopupInputContoller _popupInputController;
+    [SerializeField] private PopupChoice _popupChoice;
     [SerializeField] private PopupMenu _popupMenu;
 
     #endregion // serialized fields
@@ -82,8 +83,12 @@ public class DialogUIController : MonoBehaviour
                 break;
 
             case DialogType.Choice:
-                // TODO: 선택지 처리
-                SetNextDialog();
+                _popupDialog.SetShow(_currDialog, () => {
+                    _popupChoice.SetShow(_currDialog.ChoiceID, () => {
+                        SetNextDialog();
+                        ShowDialog();
+                    });
+                });
                 break;
 
             case DialogType.End:

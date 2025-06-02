@@ -3,6 +3,7 @@
 public enum TableType
 {
     Dialogs,
+    Choices,
 }
 
 public enum DialogType

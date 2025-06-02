@@ -35,10 +35,11 @@
     {
       "Chapter": 1,
       "ID": 5,
-      "DialogType": 1,
+      "DialogType": 3,
       "Name": "System",
-      "Dialog": "5번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
+      "Dialog": "선택지 테스트 입니다.",
+      "BackGroundImage": "BG_001",
+      "ChoiceID": 10001
     },
     {
       "Chapter": 1,
