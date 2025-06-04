@@ -116,6 +116,7 @@ public class PopupSettingController : MonoBehaviour
     private void OnValueChanged_BGMVolume(float value)
     {
         GameDataManager.Instance.SettingData._volume = value;
+        SoundManager.Instance.SetBGMVolume(value);
     }
 
     #endregion // private funcs

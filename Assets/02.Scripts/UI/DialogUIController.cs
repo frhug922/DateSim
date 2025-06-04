@@ -8,6 +8,7 @@ public class DialogUIController : MonoBehaviour
     [SerializeField] private PopupInputContoller _popupInputController;
     [SerializeField] private PopupChoice _popupChoice;
     [SerializeField] private PopupMenu _popupMenu;
+    [SerializeField] private GameObject _chapterEndPanel;
 
     #endregion // serialized fields
 
@@ -93,7 +94,7 @@ public class DialogUIController : MonoBehaviour
 
             case DialogType.End:
                 _popupDialog.SetShow(_currDialog, () => {
-                    GameManager.Instance.LoadRoomScene();
+                    _chapterEndPanel.SetActive(true);
                 });
                 break;
         }

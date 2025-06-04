@@ -5,48 +5,47 @@
       "ID": 1,
       "DialogType": 2,
       "Name": "System",
-      "Dialog": "1번 테스트 대화입니다.",
+      "Dialog": "닉네임 입력창.",
       "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 2,
       "DialogType": 1,
-      "Name": "Player",
-      "Dialog": "2번 테스트 대화입니다.",
+      "Name": "System",
+      "Dialog": "평소와 다름없는 주말 아침이었다.",
       "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 3,
       "DialogType": 1,
-      "Name": "리언",
-      "Dialog": "3번 테스트 대화입니다.",
+      "Name": "System",
+      "Dialog": "잠에서 깨어 창문을 열자, 익숙했던 옆집에 낯선 이삿짐 트럭이 서 있었다.",
       "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 4,
       "DialogType": 1,
-      "Name": "유니",
-      "Dialog": "4번 테스트 대화입니다.",
+      "Name": "Player",
+      "Dialog": "이사 오나 보네… 누굴까?",
       "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 5,
-      "DialogType": 3,
+      "DialogType": 1,
       "Name": "System",
-      "Dialog": "선택지 테스트 입니다.",
-      "BackGroundImage": "BG_001",
-      "ChoiceID": 10001
+      "Dialog": "상자들이 하나둘 옮겨지고, 새로운 얼굴들이 바쁘게 오가고 있었다.",
+      "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 6,
       "DialogType": 1,
       "Name": "???",
-      "Dialog": "6번 테스트 대화입니다.",
+      "Dialog": "그리고 그 중—한 명.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -54,7 +53,7 @@
       "ID": 7,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "7번 테스트 대화입니다.",
+      "Dialog": "긴 머리에 단정한 옷차림, 천천히 집 앞을 정리하던 소녀가 눈에 들어왔다.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -62,7 +61,7 @@
       "ID": 8,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "8번 테스트 대화입니다.",
+      "Dialog": "…또래인가?",
       "BackGroundImage": "BG_001"
     },
     {
@@ -70,7 +69,7 @@
       "ID": 9,
       "DialogType": 1,
       "Name": "유니",
-      "Dialog": "9번 테스트 대화입니다.",
+      "Dialog": "그녀도 이쪽을 잠깐 바라보았다. 순간 눈이 마주쳤다.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -78,7 +77,7 @@
       "ID": 10,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "10번 테스트 대화입니다.",
+      "Dialog": "어색하게 시선을 피하고, 괜히 방 안으로 들어와버렸다.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -86,7 +85,7 @@
       "ID": 11,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "11번 테스트 대화입니다.",
+      "Dialog": "그렇게 첫 인상은, 조금 당황스럽게 끝났다.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -94,7 +93,7 @@
       "ID": 12,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "12번 테스트 대화입니다.",
+      "Dialog": "그리고 얼마 뒤, 집 초인종이 울렸다.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -102,7 +101,7 @@
       "ID": 13,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "13번 테스트 대화입니다.",
+      "Dialog": "누구지?",
       "BackGroundImage": "BG_001"
     },
     {
@@ -110,7 +109,7 @@
       "ID": 14,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "14번 테스트 대화입니다.",
+      "Dialog": "문을 열자, 아까 그 소녀가 서 있었다.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -118,7 +117,7 @@
       "ID": 15,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "15번 테스트 대화입니다.",
+      "Dialog": "안녕하세요. 방금 이사 온 유니라고 해요. 인사드리러 왔어요.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -126,7 +125,7 @@
       "ID": 16,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "16번 테스트 대화입니다.",
+      "Dialog": "아, 안녕하세요. 나는 [플레이어 이름]이에요. 바로 옆집이에요.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -134,7 +133,7 @@
       "ID": 17,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "17번 테스트 대화입니다.",
+      "Dialog": "알고 있었어요. 이삿짐 정리하다가 잠깐 창밖에서 봤거든요.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -142,7 +141,7 @@
       "ID": 18,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "18번 테스트 대화입니다.",
+      "Dialog": "(속으로) …그럼, 아까 그 눈 마주친 것도…?",
       "BackGroundImage": "BG_001"
     },
     {
@@ -150,7 +149,7 @@
       "ID": 19,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "19번 테스트 대화입니다.",
+      "Dialog": "유니는 살짝 웃으며 작은 종이봉투를 내밀었다.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -158,7 +157,7 @@
       "ID": 20,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "20번 테스트 대화입니다.",
+      "Dialog": "별 건 아니고, 이사 기념으로 준비했어요. 쿠키예요.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -166,7 +165,7 @@
       "ID": 21,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "21번 테스트 대화입니다.",
+      "Dialog": "감사합니다. 나중에 꼭 맛볼게요.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -174,23 +173,24 @@
       "ID": 22,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "22번 테스트 대화입니다.",
+      "Dialog": "혹시… 심심하시면, 같이 산책하실래요? 동네도 익힐 겸.",
       "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 23,
-      "DialogType": 1,
+      "DialogType": 3,
       "Name": "System",
-      "Dialog": "23번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
+      "Dialog": "선택지",
+      "BackGroundImage": "BG_001",
+      "ChoiceID": 10001
     },
     {
       "Chapter": 1,
       "ID": 24,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "24번 테스트 대화입니다.",
+      "Dialog": "다행이에요. 사실 혼자 돌아다니기 조금 어색했거든요.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -198,7 +198,7 @@
       "ID": 25,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "25번 테스트 대화입니다.",
+      "Dialog": "그렇게 유니와의 첫 인사는 끝이 났다.",
       "BackGroundImage": "BG_001"
     },
     {
@@ -206,111 +206,15 @@
       "ID": 26,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "26번 테스트 대화입니다.",
+      "Dialog": "아직은 어색하고, 서먹서먹하지만…",
       "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 27,
-      "DialogType": 1,
-      "Name": "System",
-      "Dialog": "27번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
-    },
-    {
-      "Chapter": 1,
-      "ID": 28,
-      "DialogType": 1,
-      "Name": "System",
-      "Dialog": "28번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
-    },
-    {
-      "Chapter": 1,
-      "ID": 29,
-      "DialogType": 1,
-      "Name": "System",
-      "Dialog": "29번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
-    },
-    {
-      "Chapter": 1,
-      "ID": 30,
-      "DialogType": 1,
-      "Name": "System",
-      "Dialog": "30번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
-    },
-    {
-      "Chapter": 1,
-      "ID": 31,
-      "DialogType": 1,
-      "Name": "System",
-      "Dialog": "31번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
-    },
-    {
-      "Chapter": 1,
-      "ID": 32,
-      "DialogType": 1,
-      "Name": "System",
-      "Dialog": "32번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
-    },
-    {
-      "Chapter": 1,
-      "ID": 33,
-      "DialogType": 1,
-      "Name": "System",
-      "Dialog": "33번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
-    },
-    {
-      "Chapter": 1,
-      "ID": 34,
-      "DialogType": 1,
-      "Name": "System",
-      "Dialog": "34번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
-    },
-    {
-      "Chapter": 1,
-      "ID": 35,
-      "DialogType": 1,
-      "Name": "System",
-      "Dialog": "35번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
-    },
-    {
-      "Chapter": 1,
-      "ID": 36,
-      "DialogType": 1,
-      "Name": "System",
-      "Dialog": "36번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
-    },
-    {
-      "Chapter": 1,
-      "ID": 37,
-      "DialogType": 1,
-      "Name": "System",
-      "Dialog": "37번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
-    },
-    {
-      "Chapter": 1,
-      "ID": 38,
-      "DialogType": 1,
-      "Name": "System",
-      "Dialog": "38번 테스트 대화입니다.",
-      "BackGroundImage": "BG_001"
-    },
-    {
-      "Chapter": 1,
-      "ID": 39,
       "DialogType": 4,
       "Name": "System",
-      "Dialog": "39번 테스트 대화입니다.",
+      "Dialog": "뭔가 시작된 것만은 확실했다.",
       "BackGroundImage": "BG_001"
     }
   ]
