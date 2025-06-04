@@ -44,7 +44,7 @@
       "Chapter": 1,
       "ID": 6,
       "DialogType": 1,
-      "Name": "???",
+      "Name": "System",
       "Dialog": "그리고 그 중—한 명.",
       "BackGroundImage": "BG_001"
     },
@@ -60,7 +60,7 @@
       "Chapter": 1,
       "ID": 8,
       "DialogType": 1,
-      "Name": "System",
+      "Name": "Player",
       "Dialog": "…또래인가?",
       "BackGroundImage": "BG_001"
     },
@@ -68,7 +68,7 @@
       "Chapter": 1,
       "ID": 9,
       "DialogType": 1,
-      "Name": "유니",
+      "Name": "System",
       "Dialog": "그녀도 이쪽을 잠깐 바라보았다. 순간 눈이 마주쳤다.",
       "BackGroundImage": "BG_001"
     },
@@ -100,7 +100,7 @@
       "Chapter": 1,
       "ID": 13,
       "DialogType": 1,
-      "Name": "System",
+      "Name": "Player",
       "Dialog": "누구지?",
       "BackGroundImage": "BG_001"
     },
@@ -116,40 +116,40 @@
       "Chapter": 1,
       "ID": 15,
       "DialogType": 1,
-      "Name": "System",
-      "Dialog": "안녕하세요. 방금 이사 온 유니라고 해요. 인사드리러 왔어요.",
+      "Name": "???",
+      "Dialog": "안녕하세요. 옆집에 이사와서 인사드리러 왔어요.",
       "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 16,
       "DialogType": 1,
-      "Name": "System",
-      "Dialog": "아, 안녕하세요. 나는 [플레이어 이름]이에요. 바로 옆집이에요.",
+      "Name": "유니",
+      "Dialog": "이름은 유니라고 해요 반가워요.",
       "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 17,
       "DialogType": 1,
-      "Name": "System",
-      "Dialog": "알고 있었어요. 이삿짐 정리하다가 잠깐 창밖에서 봤거든요.",
+      "Name": "Player",
+      "Dialog": "아, 안녕하세요. 반가워요. 바로 옆집이에요.",
       "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 18,
       "DialogType": 1,
-      "Name": "System",
-      "Dialog": "(속으로) …그럼, 아까 그 눈 마주친 것도…?",
+      "Name": "유니",
+      "Dialog": "알고 있었어요. 이삿짐 정리하다가 잠깐 창밖에서 봤거든요.",
       "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 19,
       "DialogType": 1,
-      "Name": "System",
-      "Dialog": "유니는 살짝 웃으며 작은 종이봉투를 내밀었다.",
+      "Name": "Player",
+      "Dialog": "(속으로) …그럼, 아까 그 눈 마주친 것도…?",
       "BackGroundImage": "BG_001"
     },
     {
@@ -157,31 +157,31 @@
       "ID": 20,
       "DialogType": 1,
       "Name": "System",
-      "Dialog": "별 건 아니고, 이사 기념으로 준비했어요. 쿠키예요.",
+      "Dialog": "유니는 살짝 웃으며 작은 종이봉투를 내밀었다.",
       "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 21,
       "DialogType": 1,
-      "Name": "System",
-      "Dialog": "감사합니다. 나중에 꼭 맛볼게요.",
+      "Name": "유니",
+      "Dialog": "별 건 아니고, 이사 기념으로 준비했어요. 쿠키예요.",
       "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 22,
       "DialogType": 1,
-      "Name": "System",
-      "Dialog": "혹시… 심심하시면, 같이 산책하실래요? 동네도 익힐 겸.",
+      "Name": "Player",
+      "Dialog": "감사합니다. 나중에 꼭 맛볼게요.",
       "BackGroundImage": "BG_001"
     },
     {
       "Chapter": 1,
       "ID": 23,
       "DialogType": 3,
-      "Name": "System",
-      "Dialog": "선택지",
+      "Name": "유니",
+      "Dialog": "혹시… 심심하시면, 같이 산책하실래요? 동네도 익힐 겸.",
       "BackGroundImage": "BG_001",
       "ChoiceID": 10001
     },
@@ -189,7 +189,7 @@
       "Chapter": 1,
       "ID": 24,
       "DialogType": 1,
-      "Name": "System",
+      "Name": "유니",
       "Dialog": "다행이에요. 사실 혼자 돌아다니기 조금 어색했거든요.",
       "BackGroundImage": "BG_001"
     },

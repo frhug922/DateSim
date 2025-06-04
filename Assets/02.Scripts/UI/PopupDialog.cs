@@ -94,9 +94,15 @@ public class PopupDialog : MonoBehaviour
 
     private void ShowName(string name)
     {
-        _nameText.text = (name == "Player")
-            ? GameDataManager.Instance.PlayerData._playerName
-            : name;
+        if (name == "Player") {
+            _nameText.text = GameDataManager.Instance.PlayerData._playerName;
+        }
+        else if (name == "System") {
+            _nameText.text = string.Empty;
+        }
+        else {
+            _nameText.text = name;
+        }
     }
 
     private void ShowLog(string log)
